@@ -1,0 +1,20 @@
+body {
+    color: #fddaef;
+    background-color: black;
+    max-width: 77%;
+    margin: auto;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+main {
+    padding: 5%;
+}
+
+a {
+    color: #fddaef;
+}
+
+a:hover {
+    color: hotpink;
+}
