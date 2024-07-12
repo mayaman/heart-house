@@ -4,7 +4,8 @@ body {
     max-width: 77%;
     margin: auto;
     font-size: 24px;
-    font-family: cursive;
+    font-family: serif;
+    text-align: center;
 }
 
 main {
@@ -16,5 +17,5 @@ a {
 }
 
 a:hover {
-    color: hotpink;
+    font-style: italic;
 }
