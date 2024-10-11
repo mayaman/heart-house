@@ -33,13 +33,17 @@ p {
     text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     iframe {
-        width: 250px;
+        width: 60vw;
         height: 300px;
     }
 
     p {
         text-align: left;
+    }
+
+    main {
+        max-width: 90vw;
     }
 }
