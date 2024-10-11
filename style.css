@@ -10,6 +10,9 @@ body {
 
 main {
     padding: 5%;
+    max-width: 50vw;
+    display: block;
+    margin: auto;
 }
 
 a {
@@ -18,4 +21,25 @@ a {
 
 a:hover {
     font-style: italic;
+    color: blue;
+}
+
+iframe {
+    width: 480px;
+    height: 320px;
+}
+
+p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    iframe {
+        width: 250px;
+        height: 300px;
+    }
+
+    p {
+        text-align: left;
+    }
 }
