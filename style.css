@@ -1,7 +1,7 @@
 body {
     color: #fddaef;
     background-color: black;
-    max-width: 77%;
+    max-width: 50%;
     margin: auto;
     font-size: 24px;
     font-family: serif;
@@ -31,6 +31,7 @@ iframe {
 
 p {
     text-align: center;
+    margin: 0.5em 0;
 }
 
 @media only screen and (max-width: 900px) {
