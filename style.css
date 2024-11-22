@@ -35,8 +35,12 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+    body {
+        max-width: 90%;
+    }
+
     iframe {
-        width: 60vw;
+        width: 80vw;
         height: 300px;
     }
 
