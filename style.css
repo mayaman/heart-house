@@ -1,18 +1,18 @@
 body {
     color: #fddaef;
     background-color: black;
-    max-width: 50%;
     margin: auto;
-    font-size: 24px;
+    font-size: 26px;
     font-family: serif;
     text-align: center;
 }
 
 main {
-    padding: 5%;
+    padding-top: 2%;
     max-width: 50vw;
     display: block;
     margin: auto;
+    max-width: 50%;
 }
 
 a {
@@ -24,9 +24,14 @@ a:hover {
     color: blue;
 }
 
-iframe {
+iframe.blog {
     width: 480px;
     height: 320px;
+}
+
+iframe.guestbook {
+    width: 90vw;
+    height: 2000px;
 }
 
 p {
@@ -39,7 +44,7 @@ p {
         max-width: 90%;
     }
 
-    iframe {
+    iframe.blog {
         width: 80vw;
         height: 300px;
     }
