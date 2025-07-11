@@ -20,8 +20,17 @@ a {
 }
 
 a:hover {
-    font-style: italic;
-    color: blue;
+    /* font-style: italic; */
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+a.heart-event {
+    display: block;
+    margin: 0.5em 0;
 }
 
 iframe.blog {
@@ -50,6 +59,10 @@ p {
     }
 
     p {
+        text-align: left;
+    }
+
+    a {
         text-align: left;
     }
 
